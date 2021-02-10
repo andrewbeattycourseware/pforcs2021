@@ -18,10 +18,12 @@ try:
 
     print ("no errors")
 
+# here we catch the two errors at the same time
 except (ZeroDivisionError, IndexError) as e :
     print('error:', e)
-#except IndexError:
-#    print ("index out of bounds")
+# or you can catch another error seperatly
+except IndexError:
+    print ("index out of bounds")
 
 
 
