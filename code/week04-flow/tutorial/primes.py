@@ -1,22 +1,23 @@
 # script for generating primes
 # Author Andrew Beatty
+import math
 
 primes = []
-upto = 100
+upto = 1000
+
+def isPrime(cadidate):
+    # check if it is a prime
+    for divisor in range(2, math.floor(math.sqrt(cadidate))):
+        if candidate % divisor == 0:
+            return False
+    return True
+
+
 candidates = range(2,upto+1)
 #print (type(candidates))
 for candidate in candidates:
-    #print(candidate, end=" ")
-    isPrime = True
-
-    # check if it is a prime
-    for divisor in range (2, candidate):
-        if candidate % divisor == 0:
-            isPrime = False
-            break
-
     # if it is still a prime
-    if isPrime:
+    if isPrime(candidate):
         primes.append(candidate)
 
 print (primes)
