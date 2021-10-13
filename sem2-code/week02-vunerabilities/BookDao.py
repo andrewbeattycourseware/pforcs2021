@@ -56,10 +56,11 @@ class BookDao:
 
 
     def findById(self, ISBN):
-        cursor = self.db.cursor()
+        cursor = self.db.cursor(buffered=True)
+    
         # this is will allow sql injection
-        sql = "select * from books where ISBN = '"+ISBN+"'"
-        values = [ ISBN ]
+        sql = "select * from books where ISBN = %s"
+        values = [ISBN]
         cursor.execute(sql, values)
         result = cursor.fetchone()
         return self.convertToDict(result)
