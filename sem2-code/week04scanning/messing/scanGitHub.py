@@ -2,6 +2,9 @@ import requests
 import json
 
 from requests.api import get
+# this program falls into rate limit issues 
+# because I am not identifiying myself though authentication
+
 
 base = "https://api.github.com"
 user = 'andrewbeattycourseware'
@@ -19,18 +22,28 @@ def write_to_file(data):
         with open(filename, 'w') as f:
             json.dump(data, f, indent=4)
 
+def scan_dir (dir_base, dirname):
+    url = dir_base + '/' + dirname
+    data = getJSONFromUrl(url)
+    for content in data:
+        print (type(content))
+        if content['type'] == 'dir':
+            scan_dir(url, content['name'])
+        elif content['type'] == 'file':
+            filename = content['name']
+            sha = content['sha']
+            print(filename)
 
-def get_filenames_from_repo(reponame):
+
+def scan_repo(reponame):
     url = base + "/repos/"+user+"/"+reponame+'/'+'contents'
-    data= getJSONFromUrl(url)
-    write_to_file(data)
-    print ('done')
+    scan_dir(url,'')
 
 #url = "https://api.github.com/users?since=100"
 reposurl = base+"/users/"+user+"/repos"
 
 data = getJSONFromUrl(reposurl)
-#print (data)
+print (data)
 #Get the file name for the new file to write
 
 repositoryNames = []
@@ -38,6 +51,6 @@ for repo in data:
     repositoryNames.append(repo['name'])
 
 reponame = 'dataRepresenation2020'
-get_filenames_from_repo(reponame)
+scan_repo(reponame)
 
 #print (repr(repositoryNames))

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "DR-workspace.code-workspace",
+        "path": "DR-workspace.code-workspace",
+        "sha": "94251d40c9072dc85d2da16fcb10cfc71634bd24",
+        "size": 46,
+        "url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/DR-workspace.code-workspace?ref=master",
+        "html_url": "https://github.com/andrewbeattycourseware/dataRepresenation2020/blob/master/DR-workspace.code-workspace",
+        "git_url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/blobs/94251d40c9072dc85d2da16fcb10cfc71634bd24",
+        "download_url": "https://raw.githubusercontent.com/andrewbeattycourseware/dataRepresenation2020/master/DR-workspace.code-workspace",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/DR-workspace.code-workspace?ref=master",
+            "git": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/blobs/94251d40c9072dc85d2da16fcb10cfc71634bd24",
+            "html": "https://github.com/andrewbeattycourseware/dataRepresenation2020/blob/master/DR-workspace.code-workspace"
+        }
+    },
+    {
+        "name": "Labs",
+        "path": "Labs",
+        "sha": "1b08e874f9bc5d26f6373662d16e6a53f98b0a42",
+        "size": 0,
+        "url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/Labs?ref=master",
+        "html_url": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/Labs",
+        "git_url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/1b08e874f9bc5d26f6373662d16e6a53f98b0a42",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/Labs?ref=master",
+            "git": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/1b08e874f9bc5d26f6373662d16e6a53f98b0a42",
+            "html": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/Labs"
+        }
+    },
+    {
+        "name": "Project",
+        "path": "Project",
+        "sha": "84b444a30c387b802624d5a486923ac914623253",
+        "size": 0,
+        "url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/Project?ref=master",
+        "html_url": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/Project",
+        "git_url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/84b444a30c387b802624d5a486923ac914623253",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/Project?ref=master",
+            "git": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/84b444a30c387b802624d5a486923ac914623253",
+            "html": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/Project"
+        }
+    },
+    {
+        "name": "admin",
+        "path": "admin",
+        "sha": "f4c964c4ef5c20b747296ad1e7a8b399577b99e0",
+        "size": 0,
+        "url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/admin?ref=master",
+        "html_url": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/admin",
+        "git_url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/f4c964c4ef5c20b747296ad1e7a8b399577b99e0",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/admin?ref=master",
+            "git": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/f4c964c4ef5c20b747296ad1e7a8b399577b99e0",
+            "html": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/admin"
+        }
+    },
+    {
+        "name": "code",
+        "path": "code",
+        "sha": "7759f93ebf491d1c653a866d175042dadac44ec8",
+        "size": 0,
+        "url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/code?ref=master",
+        "html_url": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/code",
+        "git_url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/7759f93ebf491d1c653a866d175042dadac44ec8",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/code?ref=master",
+            "git": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/7759f93ebf491d1c653a866d175042dadac44ec8",
+            "html": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/code"
+        }
+    },
+    {
+        "name": "pdfs",
+        "path": "pdfs",
+        "sha": "b0ad301384b75d2b294739c6b21f81cf90211d55",
+        "size": 0,
+        "url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/pdfs?ref=master",
+        "html_url": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/pdfs",
+        "git_url": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/b0ad301384b75d2b294739c6b21f81cf90211d55",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/contents/pdfs?ref=master",
+            "git": "https://api.github.com/repos/andrewbeattycourseware/dataRepresenation2020/git/trees/b0ad301384b75d2b294739c6b21f81cf90211d55",
+            "html": "https://github.com/andrewbeattycourseware/dataRepresenation2020/tree/master/pdfs"
+        }
+    }
+]
