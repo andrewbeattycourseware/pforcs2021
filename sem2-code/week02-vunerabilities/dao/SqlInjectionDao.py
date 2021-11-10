@@ -27,6 +27,9 @@ class SqlInjectionDao:
         self.db.commit()
         return cursor.lastrowid
 
+    def findBytitle(self, title):
+        sql = "select * from books where title like '%"+ title+"%'"
+
     def getAll(self):
         cursor = self.db.cursor()
         sql = 'select * from books'
