@@ -88,14 +88,3 @@ def vectorized_result(j):
     e = np.zeros((10, 1))
     e[j] = 1.0
     return e
-
-def display_a_test():
-    training_data, validation_data, test_data =load_data()
-
-    # I used this code to inspect the data
-    print (f"{training_data[0]}, {training_data[1]}")
-    print("\n\nand one image\n\n")
-    print(f"{training_data[0][0]}")
-
-if __name__ == '__main__':
-    display_a_test()
