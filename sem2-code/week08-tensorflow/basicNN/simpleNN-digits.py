@@ -21,7 +21,7 @@ def run_neural_net():
     
     # I used this code to inspect the data
     #print (f"{training_data[0]}, {training_data[1]}")
-    #show_image(training_data[0][0], training_data[1][0],0)
+    #utils.show_image(training_data[0][1], training_data[1][1],0)
 
     #print (f"{test_data[0]}, {test_data[1]}")
     #utils.show_image(test_data[0][0], test_data[1][0], 0)
@@ -45,7 +45,7 @@ def run_neural_net():
     validation_loss, validation_acc = model.evaluate(validation_data[0],  validation_data[1], verbose=1)
 
 
-    print(f'Validation accuracy:{ validation_acc}\nloss: {validation_loss}')
+    print(f'Validation accuracy:{validation_acc}\nloss: {validation_loss}')
 
     # make predictions
     predictions = model.predict(test_data[0])
